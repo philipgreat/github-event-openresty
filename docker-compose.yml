@@ -1,7 +1,7 @@
 version: '3'
 services:
   openresty:
-    image: openresty/openresty:alpine
+    image: openresty/openresty:jammy
     ports:
       - "8680:80"
     volumes:
